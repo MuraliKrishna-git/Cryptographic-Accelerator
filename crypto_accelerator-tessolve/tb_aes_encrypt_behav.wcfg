@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_aes_encrypt_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_aes_encrypt" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="320.001 ns"></ZoomEndTime>
+      <Cursor1Time time="100.036 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="194"></NameColumnWidth>
+      <ValueColumnWidth column_width="210"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_aes_encrypt/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aes_encrypt/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aes_encrypt/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aes_encrypt/plaintext" type="array">
+      <obj_property name="ElementShortName">plaintext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">plaintext[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aes_encrypt/key" type="array">
+      <obj_property name="ElementShortName">key[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aes_encrypt/ciphertext" type="array">
+      <obj_property name="ElementShortName">ciphertext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ciphertext[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_aes_encrypt/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+</wave_config>
